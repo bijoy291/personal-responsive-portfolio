@@ -1,0 +1,484 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fffefa;
+}
+
+#hero {
+  background-image: url("assets/Hero-bg.png");
+  padding: 20px 20px;
+  margin-bottom: 150px;
+  background-position: center;
+}
+.container img {
+  width: 600px;
+  height: 600px;
+}
+.container {
+  display: flex;
+  max-width: 1260px;
+  margin: 0% auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-right: 20px;
+}
+.container-box h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.container-box span {
+  color: #872bff;
+}
+.container-box p {
+  color: #8a8a8a;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn .btn1 {
+  background-color: #872bff;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 11px 31px 0 #8c8c8c;
+  margin-right: 10px;
+  transition: all 1s;
+}
+.btn .btn1:hover {
+  background-color: white;
+  border: 2px solid #872bff;
+  color: black;
+}
+.btn .btn2 {
+  background-color: white;
+  padding: 16px 30px;
+  border-radius: 26px;
+  border-color: #872bff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  transition: all 1s;
+}
+.btn .btn2:hover {
+  background-color: #872bff;
+  color: white;
+}
+/* hero section end */
+
+/* skill start */
+#skill {
+  text-align: center;
+  width: 1260px;
+  margin: 0px auto;
+}
+.sk h4 {
+  color: #6a14da;
+  letter-spacing: 30%;
+  font-size: 20px;
+  line-height: auto;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sk h1 {
+  margin-bottom: 50px;
+  font-size: 44px;
+}
+.skill-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  width: 290px;
+  height: 315px;
+  padding: 40px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 3px 4px 1px #cdcccc;
+}
+.box1 p {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 16px;
+}
+.box1 h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.box1 a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* project start */
+#project {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+.project-cart {
+  text-align: center;
+}
+.project-cart p {
+  color: #872bff;
+  font-weight: bold;
+  letter-spacing: 30%;
+  font-size: 20px;
+  line-height: auto;
+  margin-bottom: 20px;
+}
+.project-cart h3 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+.project-hero {
+  width: 1260px;
+  height: 396px;
+  border: 1px solid #872bff;
+  margin: auto;
+  display: flex;
+  padding: 48px;
+  gap: 30px;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.project-hero img {
+  width: 400px;
+  height: 300px;
+  border-radius: 16px;
+}
+.project-hero p {
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.project-hero .p1 {
+  line-height: 35px;
+}
+.project-hero h3 {
+  font-size: 32px;
+}
+.project-hero button {
+  width: 166px;
+  height: 50px;
+  background-color: #872bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 11px 31px 0 #939393;
+  transition: all 1s;
+}
+.project-hero button:hover {
+  background-color: white;
+  border: 2px solid #872bff;
+  color: black;
+}
+/* ielstar */
+#ielstar {
+  width: 1260px;
+  height: 396px;
+  border: 1px solid #872bff;
+  margin: auto;
+  display: flex;
+  padding: 48px;
+  gap: 30px;
+  align-items: center;
+  border-radius: 20px;
+}
+#ielstar img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.iel p {
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.iel .p1 {
+  line-height: 35px;
+}
+.iel h3 {
+  font-size: 32px;
+}
+.iel button {
+  width: 166px;
+  height: 50px;
+  background-color: #872bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 11px 31px 0 #939393;
+}
+
+/* mew */
+#mew {
+  width: 1260px;
+  height: 396px;
+  border: 1px solid #872bff;
+  margin: auto;
+  display: flex;
+  padding: 48px;
+  gap: 30px;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+#mew img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.mew-hero p {
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.mew-hero .p1 {
+  line-height: 35px;
+}
+.mew-hero h3 {
+  font-size: 32px;
+}
+.mew-hero button {
+  width: 166px;
+  height: 50px;
+  background-color: #872bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 11px 31px 0 #939393;
+}
+/* experience */
+
+#experience {
+  margin-top: 60px;
+  width: 1260px;
+  margin: auto;
+}
+.ex1 p {
+  color: #872bff;
+  font-weight: bold;
+  letter-spacing: 30%;
+  font-size: 20px;
+  line-height: auto;
+  margin-bottom: 20px;
+}
+.ex1 {
+  text-align: center;
+}
+.ex1 h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+/* company cart */
+.company {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.brand {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 3px 4px 1px #cdcccc;
+  border-radius: 16px;
+}
+.company-btn {
+  text-align: center;
+  padding: 60px 0;
+}
+.company-btn button {
+  width: 166px;
+  height: 50px;
+  background-color: #872bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  box-shadow: 0 11px 31px 0 #939393;
+}
+.hidden {
+  display: none;
+}
+/* responsive */
+/* laptop device 1025-1200 */
+@media screen and (max-width: 1200px) {
+  #hero {
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    max-width: 1025px;
+    justify-content: space-between;
+  }
+  .container-box h1 {
+    font-size: 38px;
+  }
+  .container img {
+    width: 500px;
+    height: 500px;
+  }
+  .container-box p {
+    font-size: 14px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+/* tablet device 769-1024 */
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container-box h1 {
+    font-size: 30px;
+  }
+  .container img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .btn {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  #skill {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .skill-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box1 {
+    flex-direction: column;
+    width: 90%;
+  }
+  .project-hero {
+    width: 98%;
+  }
+  #ielstar {
+    width: 98%;
+  }
+  #mew {
+    width: 98%;
+    align-items: center;
+  }
+  #project img {
+    width: 210px;
+    height: 180px;
+  }
+  .ex1 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .ex1 p {
+    font-size: 16px;
+  }
+  .company {
+    flex-direction: column;
+    text-align: center;
+  }
+  .brand {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+  }
+  #experience {
+    text-align: center;
+    width: 100%;
+  }
+}
+/* android device landscape 569-768 */
+@media screen and (max-width: 768px) {
+  .sk h1 {
+    font-size: 32px;
+  }
+  #project p {
+    font-size: 14px;
+  }
+}
+/* android device potrait 568 */
+@media screen and (max-width: 568px) {
+  .container-box h1 {
+    font-size: 25px;
+  }
+  .btn {
+    flex-direction: column;
+  }
+  .container img {
+    width: 300px;
+    height: 300px;
+  }
+  .sk h1 {
+    font-size: 22px;
+  }
+  .sk h4 {
+    font-size: 17px;
+  }
+  .project-hero {
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .project-cart h3 {
+    font-size: 25px;
+  }
+  .doctoriano h2 {
+    margin-top: 0%;
+    font-size: 20px;
+  }
+  #project img {
+    width: 180px;
+    height: 150px;
+  }
+  #ielstar {
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .iel h2 {
+    margin-top: 0%;
+    font-size: 20px;
+  }
+  #mew {
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .mew-hero h2 {
+    margin-top: 0%;
+    font-size: 20px;
+  }
+  .brand {
+    width: 98%;
+    margin: auto;
+    padding: 10%;
+  }
+}
